@@ -5,7 +5,6 @@
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
-VERSION = '1.0.4'
 Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -16,7 +15,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "QTSLiveness"
-  spec.version      = VERSION
+  spec.version      = "1.0.4"
   spec.summary      = "A short description of QTSLiveness."
   spec.homepage     = "https://github.com/trungnguyen1791/QTSLiveness"
   spec.author           = { 'My Name' => 'myemail@example.com' }
@@ -25,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source = { :http => "https://github.com/trungnguyen1791/QTSLiveness/releases/download/#{VERSION}/QTSLiveness.zip" }
+  spec.source = { :http => "https://github.com/trungnguyen1791/QTSLiveness/releases/download/1.0.4/QTSLiveness.zip" }
   spec.vendored_frameworks = 'QTSLiveness/QTSLiveness.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '~> 19.0'
