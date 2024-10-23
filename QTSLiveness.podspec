@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source = { :http => 'https://github.com/trungnguyen1791/QTSLiveness/releases/download/#{VERSION}/QTSLiveness.xcframework.zip' }
+  spec.source = { :http => "https://github.com/trungnguyen1791/QTSLiveness/releases/download/#{VERSION}/QTSLiveness.zip" }
   spec.vendored_frameworks = 'QTSLiveness/QTSLiveness.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '~> 19.0'
