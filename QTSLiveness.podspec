@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "QTSLiveness"
-  spec.version      = "1.0.7"
+  spec.version      = "1.2.2"
   spec.summary      = "A short description of QTSLiveness."
   spec.homepage     = "https://github.com/trungnguyen1791/QTSLiveness"
   spec.author           = { 'My Name' => 'myemail@example.com' }
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
 
-  spec.source = { :http => "https://github.com/trungnguyen1791/QTSLiveness/releases/download/1.0.7/QTSLiveness.zip" }
+  spec.source = { :http => "https://github.com/trungnguyen1791/QTSLiveness/releases/download/1.2.2/QTSLiveness.zip" }
   spec.vendored_frameworks = 'QTSLiveness/QTSLiveness.xcframework'
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '~> 19.0'
