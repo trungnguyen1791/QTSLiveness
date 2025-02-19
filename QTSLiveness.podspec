@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.dependency "ObjectMapper", '~> 4.2'
   spec.dependency "KeychainSwift", '~> 19.0'
   spec.dependency "CryptoSwift", '~> 1.8.2'
-  spec.dependency "SignManager", '~> 1.0.9'
+  spec.dependency "SignManager", '~> 1.0.8'
   
 
   spec.swift_version = "5.0"
